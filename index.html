@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Making Article Website</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; transition: background-color 0.3s, color 0.3s; }
+        header { background-color: #1e3a8a; color: white; padding: 1.5em; text-align: center; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); position: sticky; top: 0; z-index: 1000; }
+        main { padding: 2em; max-width: 800px; margin: auto; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        article { margin-bottom: 2em; }
+        h2 { color: #1e3a8a; }
+        footer { background-color: #111827; color: white; padding: 1em; text-align: center; position: fixed; width: 100%; bottom: 0; }
+        .ad { margin: 2em 0; text-align: center; }
+        .btn { background-color: #1e3a8a; color: white; padding: 0.5em 1em; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; }
+        .btn:hover { background-color: #3b82f6; }
+        .search-bar { margin-bottom: 1.5em; display: flex; justify-content: center; }
+        .search-bar input { padding: 0.5em; border: 1px solid #ccc; border-radius: 4px; width: 60%; }
+        .search-bar button { padding: 0.5em; border: none; background-color: #1e3a8a; color: white; cursor: pointer; border-radius: 4px; margin-left: 0.5em; }
+        .dark-mode-toggle { position: fixed; top: 1em; right: 1em; background-color: #1e3a8a; color: white; padding: 0.5em 1em; border: none; border-radius: 4px; cursor: pointer; }
+        .newsletter { margin-top: 2em; text-align: center; }
+        .newsletter input { padding: 0.5em; width: 60%; border: 1px solid #ccc; border-radius: 4px; }
+        .newsletter button { padding: 0.5em; border: none; background-color: #1e3a8a; color: white; border-radius: 4px; cursor: pointer; margin-left: 0.5em; }
+        .social-icons { margin-top: 1em; text-align: center; }
+        .social-icons a { margin: 0 0.5em; text-decoration: none; color: #1e3a8a; font-size: 1.5em; }
+        .dark-mode { background-color: #1a1a1a; color: #f4f4f4; }
+    </style>
+</head>
+<body>
+
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+    <header>
+        <h1>Explore Articles & Insights</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search articles...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>How to Build an Online Business in 2025</h2>
+            <p>Discover the latest strategies to build a successful online business. From finding the right niche to promoting your products, this guide covers it all!</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <article>
+            <h2>Top 10 Passive Income Ideas</h2>
+            <p>Looking to make money while you sleep? Check out these top passive income ideas and start building your financial freedom today!</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+
+        <!-- Google AdSense Code -->
+        <div class="ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5797118543167172"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <div class="newsletter">
+            <p>Subscribe to our newsletter for more articles!</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+
+        <div class="social-icons">
+            <a href="#" target="_blank">🔗</a>
+            <a href="#" target="_blank">🐦</a>
+            <a href="#" target="_blank">📸</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Money-Making Article Website</p>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+
+</body>
+</html>
